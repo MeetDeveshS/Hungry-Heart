@@ -10,7 +10,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: rgb(25, 17, 17);
 }
-/* --navbar--- */
+/* --navbar--- 👍🏻*/
 .navbar {
     display: flex;
     align-items: center;
@@ -40,7 +40,7 @@ nav a:hover {
     color: #b7e319;
     transition: 0.3s;
 }
-/*order button*/
+/*order button👍🏻*/
 .nav-btn{
     background-color: transparent;
     color: #b7e319;
@@ -55,7 +55,7 @@ nav a:hover {
     color: #b7e319;
     transform: translateY(-2px);
 }
-/*hero section*/
+/*hero section👍🏻*/
 .hero-section {
     display: flex;
     align-items: center;
@@ -70,7 +70,7 @@ nav a:hover {
     max-width: 600px;
 }
 
-/* Badge Styling */
+/* Badge Styling 👍🏻*/
 .hero-badge {
     display: inline-block;
     background-color: rgba(25, 17, 17, 0.1);
@@ -85,7 +85,7 @@ nav a:hover {
     border: 1px solid rgba(214, 137, 3, 0.2);
 }
 
-/* Typography */
+/* Typography 👍🏻*/
 .hero-content h1 {
     font-size: 50px;
     font-weight: 800;
@@ -101,7 +101,7 @@ nav a:hover {
     margin-bottom: 45px;
 }
 
-/* Action Buttons */
+/* Action Buttons👍🏻 */
 .hero-buttons {
     display: flex;
     gap: 1.2rem;
@@ -137,7 +137,7 @@ nav a:hover {
     transform: translateY(-2px);
 }
 
-/* Hero Image Box Placeholder */
+/* Hero Image Box Placeholder 👍🏻*/
 .hero-image {
     flex: 1;
     display: flex;
@@ -155,7 +155,7 @@ nav a:hover {
     border: 3px solid #b7e319;
 }
 
-/* Responsive Design for Mobile */
+/* Responsive Design for Mobile👍🏻 */
 @media (max-width: 968px) {
     .hero-section {
         flex-direction: column;
@@ -179,7 +179,7 @@ nav a:hover {
         width: 100%;
     }
 }
-/* Offers Section Layout */
+/* Offers Section Layout 👍🏻*/
 .offers-section {
     padding: 25px 8%;
     background-color: rgb(25, 17, 17);
@@ -204,7 +204,7 @@ nav a:hover {
     font-size: 25px;
 }
 
-/* 3-Column Grid for Offers */
+/* 3-Column Grid for Offers 👍🏻*/
 .offers-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -212,7 +212,7 @@ nav a:hover {
     max-width: 1400px;
 }
 
-/* Offer Card Styling (Matching your white card theme) */
+/* Offer Card Styling (Matching your white card theme)👍🏻 */
 .offer-card {
     background-color: #ffffff;
     color: #b7e319;
@@ -226,7 +226,7 @@ nav a:hover {
     overflow: hidden;
 }
 
-/* Highlight badge inside card */
+/* Highlight badge inside card 👍🏻*/
 .offer-tag {
     display: inline-block;
     background-color: rgba(25, 17, 17, 0.15);
@@ -255,7 +255,7 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-/* Button inside card */
+/* Button inside card👍🏻 */
 .offer-btn {
     background-color: #b7e319;
     color: #ffffff;
@@ -273,7 +273,7 @@ nav a:hover {
     color: #b7e319;
 }
 
-/* Responsive Design */
+/* Responsive Design👍🏻 */
 @media (max-width: 1024px) {
     .offers-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -285,7 +285,7 @@ nav a:hover {
         grid-template-columns: 1fr;
     }
 }
-/*menu section*/
+/*menu section👍🏻*/
 .section-badge {
     display: inline-block;
     background-color: rgba(25, 17, 17, 0.1);
@@ -354,13 +354,13 @@ nav a:hover {
     color: #060606;
 }
 
-/* Target your menu cards/boxes */
+/* Target your menu cards/boxes👍🏻 */
 .menu-section .menu-card,
 .menu-section > div > div {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Container for the 8 items grid */
+/* Container for the 8 items grid 👍🏻*/
 .menu-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -370,7 +370,7 @@ nav a:hover {
     margin: 0 auto;
 }
 
-/* Individual Menu Card (White Box) */
+/* Individual Menu Card (White Box) 👍🏻*/
 .menu-card {
     background-color: #b7e319;
     color: #fcfafa;
@@ -382,14 +382,14 @@ nav a:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Image inside the card */
+/* Image inside the card👍🏻 */
 .menu-item img {
     width: 100%;
     height: 180px;
     object-fit: cover;
 }
 
-/* Text Content Area inside the card */
+/* Text Content Area inside the card 👍🏻*/
 .menu-item-content {
     padding: 12px;
     display: flex;
@@ -414,28 +414,28 @@ nav a:hover {
     text-align: center;
 }
 
-/* Whole Box Hover Effect */
+/* Whole Box Hover Effect 👍🏻*/
 .menu-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 15px 35px rgba(245, 158, 11, 0.25);
     border: 1px solid #b7e319;
 }
 
-/* Responsive Breakpoints for Tablets and Mobiles */
+/* Responsive Breakpoints for Tablets and Mobiles 👍🏻*/
 @media (max-width: 1100px) {
     .menu-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 items per row on tablets */
+        grid-template-columns: repeat(2, 1fr); /* 2 items per row on tablets 👍🏻*/
     }
 }
 
 @media (max-width: 600px) {
     .menu-grid {
-        grid-template-columns: 1fr; /* 1 item per row on mobile phones */
+        grid-template-columns: 1fr; /* 1 item per row on mobile phones 👍🏻*/
         padding: 20px 5%;
     }
 }
 
-/* Reviews Section Layout */
+/* Reviews Section Layout👍🏻 */
 .reviews-section {
     padding: 60px 8%;
     background-color: rgb(25, 17, 17);
@@ -473,7 +473,7 @@ nav a:hover {
     font-size: 15px;
 }
 
-/* Reviews Grid (3 Columns) */
+/* Reviews Grid (3 Columns)👍🏻 */
 .reviews-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -482,7 +482,7 @@ nav a:hover {
     margin: 0 auto;
 }
 
-/* Review Card Styling (Matching your white card theme) */
+/* Review Card Styling (Matching your white card theme) 👍🏻*/
 .review-card {
     background-color: #000000;
     color: #fcf9f9;
@@ -517,7 +517,7 @@ nav a:hover {
     color: #b7e319;
 }
 
-/* Responsive Breakpoints */
+/* Responsive Breakpoints👍🏻 */
 @media (max-width: 1024px) {
     .reviews-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -529,7 +529,7 @@ nav a:hover {
         grid-template-columns: 1fr;
     }
 }
-/* Contact Section Layout */
+/* Contact Section Layout👍🏻*/
 .contact-section {
     padding: 35px 8%;
     background-color: rgb(25, 17, 17);
@@ -555,7 +555,7 @@ nav a:hover {
     background-color: #0b0b0b;
 }
 
-/* Two-Column Grid */
+/* Two-Column Grid 👍🏻*/
 .contact-container {
     display: grid;
     gap: 30px;
@@ -563,7 +563,7 @@ nav a:hover {
     margin: 0 auto;
 }
 
-/* Info & Form Card Styling (Matching your white card theme) */
+/* Info & Form Card Styling (Matching your white card theme) 👍🏻*/
 .contact-info-card,
 .contact-form-card {
     background-color: #000000;
@@ -585,7 +585,7 @@ nav a:hover {
     margin-bottom: 25px;
 }
 
-/* Info List Items */
+/* Info List Items👍🏻 */
 .info-item {
     display: flex;
     gap: 20px;
@@ -608,7 +608,7 @@ nav a:hover {
     color: #c7c0c0;
 }
 
-/* Form Styles */
+/* Form Styles 👍🏻*/
 .form-group {
     display: flex;
     flex-direction: column;
@@ -632,7 +632,7 @@ nav a:hover {
     font-size: 15px;
     color: #111;
 }
-/* Submit Button */
+/* Submit Button 👍🏻*/
 .submit-btn {
     background-color: #b7e319;
     color: #0b0b0b;
@@ -643,7 +643,7 @@ nav a:hover {
     width: 100%;
     font-size: 20px;
 }
-/* Responsive Design */
+/* Responsive Design 👍🏻*/
 @media (max-width: 968px) {
     .contact-container {
         grid-template-columns: 1fr;
