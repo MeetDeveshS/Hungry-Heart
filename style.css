@@ -1,0 +1,651 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(25, 17, 17);
+}
+/* --navbar--- */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #000000;
+    border:#b7e319 solid 2px;
+    border-radius: 50px;
+}
+div.logo{
+    font-size: 40px;
+    font-weight: 500;
+    color: #b7e319;
+}
+span {
+    color: #b7e319;
+    font-weight: 400;
+}
+nav a {
+    text-decoration: none;
+    color: #b7e319;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+nav a:hover {
+    color: #b7e319;
+    transition: 0.3s;
+}
+/*order button*/
+.nav-btn{
+    background-color: transparent;
+    color: #b7e319;
+    padding: 20px 40px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: 1px solid #b7e319;
+    transition: all -0.1s ease;
+}
+.nav-btn:hover {
+    border-color: #b7e319;
+    color: #b7e319;
+    transform: translateY(-2px);
+}
+/*hero section*/
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: calc(100vh - 80px);
+    padding: 0 8%;
+    gap: 40px;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+/* Badge Styling */
+.hero-badge {
+    display: inline-block;
+    background-color: rgba(25, 17, 17, 0.1);
+    color: #b7e319;
+    padding: 35px 60px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+    border: 1px solid rgba(214, 137, 3, 0.2);
+}
+
+/* Typography */
+.hero-content h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 45px;
+    color: #ffffff;
+}
+
+.hero-content p {
+    font-size: 20px;
+    color: #b3b3b3;
+    line-height: 1.6;
+    margin-bottom: 45px;
+}
+
+/* Action Buttons */
+.hero-buttons {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.btn-primary {
+    background-color: #b7e319;
+    color: #0b0b0b;
+    padding: 20px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #b7e319;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid #b7e319;
+}
+
+.btn-secondary:hover {
+    border-color: #b7e319;
+    color: #b7e319;
+    transform: translateY(-2px);
+}
+
+/* Hero Image Box Placeholder */
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img,
+.image-placeholder {
+    width: 100%;
+    max-width: 440px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #b7e319;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 968px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 5%;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 25px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+}
+/* Offers Section Layout */
+.offers-section {
+    padding: 25px 8%;
+    background-color: rgb(25, 17, 17);
+    border-top: 1px solid #222222;
+}
+
+.offers-header {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 70px auto;
+}
+
+.offers-header h2 {
+    font-size: 25px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.offers-header p {
+    color: #b3b3b3;
+    font-size: 25px;
+}
+
+/* 3-Column Grid for Offers */
+.offers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 90px;
+    max-width: 1400px;
+}
+
+/* Offer Card Styling (Matching your white card theme) */
+.offer-card {
+    background-color: #ffffff;
+    color: #b7e319;
+    border-radius: 90px;
+    padding: 45px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Highlight badge inside card */
+.offer-tag {
+    display: inline-block;
+    background-color: rgba(25, 17, 17, 0.15);
+    color: #d97706;
+    padding: 20px 25px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    align-self: flex-start;
+    margin-bottom: 12px;
+}
+
+.offer-card h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #b7e319;
+    margin-bottom: 13px;
+}
+
+.offer-card p {
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Button inside card */
+.offer-btn {
+    background-color: #b7e319;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.offer-btn:hover {
+    background-color: #b7e319;
+    color: #b7e319;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .offers-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .offers-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/*menu section*/
+.section-badge {
+    display: inline-block;
+    background-color: rgba(25, 17, 17, 0.1);
+    color: #b7e319;
+    padding: 20px 10px;
+    border-radius: 90px;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(245, 158, 11, 0.2);
+}
+.menu-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 40px auto 25px auto;
+    padding: 0 5%;
+}
+
+.menu-header h2 {
+    font-size: 25px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.menu-header p {
+    color: #b3b3b3;
+    font-size: 25px;
+}
+
+.menu-section {
+    padding: 25px 8%;
+}
+
+.menu-section h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.menu-card {
+    color: #fefafa;
+    text-align: center;
+    background-color: #121110;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.menu-card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.menu-card p {
+    color: #060606;
+}
+
+/* Target your menu cards/boxes */
+.menu-section .menu-card,
+.menu-section > div > div {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Container for the 8 items grid */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 30px 8%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Individual Menu Card (White Box) */
+.menu-card {
+    background-color: #b7e319;
+    color: #fcfafa;
+    border-radius: 90px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Image inside the card */
+.menu-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Text Content Area inside the card */
+.menu-item-content {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu-item h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #c4b7b7;
+    padding: 12px;
+    text-align: center;
+}
+
+.menu-item p {
+    font-size: 20px;
+    color: #898787;
+    line-height: 1.5;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Whole Box Hover Effect */
+.menu-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(245, 158, 11, 0.25);
+    border: 1px solid #b7e319;
+}
+
+/* Responsive Breakpoints for Tablets and Mobiles */
+@media (max-width: 1100px) {
+    .menu-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 items per row on tablets */
+    }
+}
+
+@media (max-width: 600px) {
+    .menu-grid {
+        grid-template-columns: 1fr; /* 1 item per row on mobile phones */
+        padding: 20px 5%;
+    }
+}
+
+/* Reviews Section Layout */
+.reviews-section {
+    padding: 60px 8%;
+    background-color: rgb(25, 17, 17);
+    border-top: 1px solid #222222;
+}
+
+.reviews-header {
+    text-align: left;
+    max-width: 600px;
+}
+
+.section-badge {
+    display: inline-block;
+    background-color: rgba(245, 158, 11, 0.1);
+    color: #b7e319;
+    padding: 45px 55px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+    border: 1px solid rgba(245, 158, 11, 0.2);
+}
+
+.reviews-header h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.reviews-header p {
+    color: #b3b3b3;
+    font-size: 15px;
+}
+
+/* Reviews Grid (3 Columns) */
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Review Card Styling (Matching your white card theme) */
+.review-card {
+    background-color: #000000;
+    color: #fcf9f9;
+    border-radius: 16px;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stars {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.review-card p {
+    font-size: 15px;
+    color: #eddfdf;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.reviewer-info h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #b7e319;
+}
+
+.reviewer-info span {
+    font-size: 20px;
+    color: #b7e319;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1024px) {
+    .reviews-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .reviews-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* Contact Section Layout */
+.contact-section {
+    padding: 35px 8%;
+    background-color: rgb(25, 17, 17);
+    border-top: 1px solid #222222;
+}
+
+.contact-header {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 3rem auto;
+}
+
+.contact-header h2 {
+    font-size: 25px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.contact-header p {
+    color: #b3b3b3;
+    font-size: 17px;
+    background-color: #0b0b0b;
+}
+
+/* Two-Column Grid */
+.contact-container {
+    display: grid;
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Info & Form Card Styling (Matching your white card theme) */
+.contact-info-card,
+.contact-form-card {
+    background-color: #000000;
+    color: #fdfdfd;
+    border-radius: 90px;
+    border: 1px solid #b7e319;
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-info-card h3,
+.contact-form-card h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #f7f2f2;
+    margin-bottom: 25px;
+}
+
+/* Info List Items */
+.info-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.info-icon {
+    font-size: 25px;
+}
+
+.info-item h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #f8f4f4;
+    margin-bottom: 20px;
+}
+
+.info-item p {
+    font-size: 20px;
+    color: #c7c0c0;
+}
+
+/* Form Styles */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #f6f4f4;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 20px 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    font-family: inherit;
+    font-size: 15px;
+    color: #111;
+}
+/* Submit Button */
+.submit-btn {
+    background-color: #b7e319;
+    color: #0b0b0b;
+    padding: 25px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+}
+/* Responsive Design */
+@media (max-width: 968px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+}
